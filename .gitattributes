@@ -1,0 +1,14 @@
+resources/graphics filter=lfs diff=lfs merge=lfs -text
+resources/fonts/Ubuntu-Bold.ttf filter=lfs diff=lfs merge=lfs -text
+resources/fonts/Ubuntu-Regular.ttf filter=lfs diff=lfs merge=lfs -text
+resources/fonts/Ubuntu-Bold-60.png filter=lfs diff=lfs merge=lfs -text
+resources/fonts/Ubuntu-Bold-80.png filter=lfs diff=lfs merge=lfs -text
+resources/fonts/Ubuntu-Regular-30.png filter=lfs diff=lfs merge=lfs -text
+resources/fonts/Ubuntu-Bold-50.png filter=lfs diff=lfs merge=lfs -text
+resources/fonts/Texturina-VariableFont_opsz,wght-50.png filter=lfs diff=lfs merge=lfs -text
+resources/fonts/Texturina-Italic-VariableFont_opsz,wght.ttf filter=lfs diff=lfs merge=lfs -text
+resources/fonts/Texturina-VariableFont_opsz,wght.ttf filter=lfs diff=lfs merge=lfs -text
+resources/fonts/SyneMono-Regular-60.png filter=lfs diff=lfs merge=lfs -text
+resources/fonts/SyneMono-Regular.ttf filter=lfs diff=lfs merge=lfs -text
+resources/fonts/SyneMono-Regular-70.png filter=lfs diff=lfs merge=lfs -text
+resources/drawables/launcher_icon.png filter=lfs diff=lfs merge=lfs -text

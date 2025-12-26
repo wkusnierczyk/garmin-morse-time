@@ -1,0 +1,32 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <jsonData id="MorseTestCases">[
+        {
+            "input": 0,
+            "symbols": "._",
+            "expected": ["_____","_____"]
+        },
+        {
+            "input": 5,
+            "symbols": "./",
+            "expected": ["/////","....."]
+        },
+        {
+            "input": 12,
+            "symbols": "+-",
+            "expected": ["+----","++---"]
+        },
+        {
+            "input": 37,
+            "symbols": "•|",
+            "expected": ["•••||","||•••"]
+        },
+        {
+            "input": 99,
+            "symbols": "@#",
+            "expected": ["####@","####@"]
+        }
+    ]</jsonData>
+
+</resources>

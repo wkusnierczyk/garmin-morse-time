@@ -1,0 +1,9 @@
+<layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <label id="MorseTimeHourTens" x="center" y="33%" font="@Fonts.MorseTimeFont" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_WHITE" />
+    <label id="MorseTimeHourOnes" x="center" y="44%" font="@Fonts.MorseTimeFont" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_WHITE" />
+    <label id="MorseTimeMinutesTens" x="center" y="56%" font="@Fonts.MorseTimeFont" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_ORANGE" />
+    <label id="MorseTimeMinutesOnes" x="center" y="67%" font="@Fonts.MorseTimeFont" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_ORANGE" />
+    <label id="StandardTime" x="center" y="80%" font="@Fonts.StandardTimeFont" justification="Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER" color="Gfx.COLOR_DK_GRAY" />
+
+</layout>

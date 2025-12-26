@@ -1,0 +1,7 @@
+<settings>
+
+    <setting propertyKey="@Properties.ShowStandardTime" title="@Strings.ShowStandardTimeTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+</settings>

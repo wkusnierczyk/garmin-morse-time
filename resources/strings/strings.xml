@@ -1,0 +1,22 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <string id="AppName">MorseTime</string>
+    <string id="MorseTime">Morse Time</string>
+    <string id="ShowStandardTimeTitle">Show Standard Time</string>
+    
+    <string id="MorseSymbols">•-</string>
+    <jsonData id="MorseDigits">[
+        "-----",
+        ".----",
+        "..---",
+        "...--",
+        "....-",
+        ".....",
+        "-....",
+        "--...",
+        "---..",
+        "----."
+    ]</jsonData>
+
+</resources>
