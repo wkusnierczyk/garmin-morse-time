@@ -14,13 +14,8 @@ class SwatchTimeView extends WatchUi.WatchFace {
         WatchFace.initialize();
     }
 
-    // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.WatchFace(dc));
-    }
-
-    // Called when this View is brought to the foreground
-    function onShow() {
     }
 
     // Update the view

@@ -12,3 +12,9 @@ resources/fonts/SyneMono-Regular-60.png filter=lfs diff=lfs merge=lfs -text
 resources/fonts/SyneMono-Regular.ttf filter=lfs diff=lfs merge=lfs -text
 resources/fonts/SyneMono-Regular-70.png filter=lfs diff=lfs merge=lfs -text
 resources/drawables/launcher_icon.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/morse-standard.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/morse.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/MorseTime[[:space:]]1.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/MorseTime[[:space:]]2.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/MorseTimeCapture.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/MorseTimeHero.png filter=lfs diff=lfs merge=lfs -text

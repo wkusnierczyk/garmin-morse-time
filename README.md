@@ -5,6 +5,8 @@ A minimalist, elegant, typography-focused Garmin Connect IQ watch face that disp
 ![Morse time](resources/graphics/morse.png)
 ![Morse time](resources/graphics/morse-standard.png)
 
+Available from [Garmin Connect IQ Developer portal](https://apps.garmin.com/apps/05ae153e-5370-45d7-ae2e-140b9216492b).
+
 
 ## Contents
 
