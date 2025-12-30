@@ -11,7 +11,7 @@ Available from [Garmin Connect IQ Developer portal](https://apps.garmin.com/apps
 ## Contents
 
 * [Morse digits](#morse-digits)
-* [Project structure](#project-structure)
+* [Fonts](#fonts)
 * [Build, test, deploy](#build-test-deploy)
 
 ## Morse digits
@@ -32,49 +32,27 @@ The table below shows the complete encoding.
 | 8             | `---..`    |
 | 9             | `----.`    |
 
-The Garmin Morse Time watch face uses custom fonts:
-* [SyneMono](https://fonts.google.com/specimen/Syne+Mono) (for Morse time) 
-* [Ubuntu](https://fonts.google.com/specimen/Ubuntu) (for standard time).
 
-The fonts are available from [Google Fonts](https://fonts.google.com/) in True Type font (`ttf`) format.
-They have been converted to bitmap fonts (`bmp` and `fnt`) using the open source command-line [`ttf2bmp`](https://github.com/wkusnierczyk/ttf2bmp) converter.
+## Fonts
 
+The Morse Time watch face uses custom fonts:
 
-## Project structure
+* [SyneMono](https://fonts.google.com/specimen/Syne+Mono) for Morse time, 
+* [Ubuntu](https://fonts.google.com/specimen/Ubuntu) for standard time.
 
-```bash
-MorseTime
-├── LICENSE                        # MIT license
-├── Makefile                       # Convenience makefile
-├── manifest.xml
-├── monkey.jungle
-├── README.md                      # This file
-├── resources
-│   ├── drawables
-│   │   ├── drawables.xml
-│   │   └── launcher_icon.png
-│   ├── fonts
-│   │   ├── fonts.xml              # App font specification 
-│   │   ├── OFL.txt                # Open Font License
-│   │   ├── UFL.txt                # Use Font License
-│   │   └── [ttf, fnt, png fonts]  # Source (ttf) and converted (fnt, png) fonts
-│   ├── graphics                   # Font face screenshots
-│   │   ├── morse-standard.png
-│   │   └── morse.png
-│   ├── layouts
-│   │   └── layout.xml             # App layout specification
-│   └── strings
-│   │   └── strings.xml
-│   ├── settings                   # App settings
-│   │   ├── properties.xml
-│   │   └── settings.xml
-└── source
-    ├── MorseTime.mc
-    ├── MorseTimeApp.mc
-    ├── MorseTimeSettings.mc
-    ├── MorseTimeView.mc
-    └── StringUtils.mc
-```
+The development process was as follows:
+
+* The fonts were downloaded from [Google Fonts](https://fonts.google.com/) as True Type  (`.ttf`) fonts.
+* The fonts were converted to bitmaps as `.fnt` and `.png` pairs using the open source command-line [`ttf2bmp`](https://github.com/wkusnierczyk/ttf2bmp) converter.
+* The font sizes were established to match the Garmin Fenix 7X Solar watch 280x280 pixel screen resolution.
+* The fonts were then scaled proportionally to match other screen sizes available on Garmin watches with round screens using the included [utility script](utils/generate_fonts.py).
+
+The table below lists all font sizes provided for the supported screen resolutions.
+
+| Element       | Font             | 218 | 240 | 260 | 280 | 360 | 390 | 416 | 454 |
+| :------------ | :--------------- | --: | --: | --: | --: | --: | --: | --: | --: |
+| Morse time    | SyneMono regular |  54 |  60 |  65 |  70 |  90 |  98 | 104 | 114 |
+| Standard time | Ubuntu regular   |  23 |  26 |  28 |  30 |  39 |  42 |  45 |  49 |
 
 ## Build, test, deploy
 
