@@ -1,1 +1,6 @@
 project.manifest = manifest.xml
+
+base.sourcePath = source;source-color
+
+instinct2x.resourcePath = $(base.resourcePath);resources-round-176x176
+instinct2x.sourcePath = source;source-mono

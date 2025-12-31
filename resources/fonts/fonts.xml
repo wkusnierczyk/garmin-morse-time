@@ -19,6 +19,7 @@
     <jsonData id="ScreenDiameters">{
         "referenceDiameter": 280,
         "targetDiameters": [
+            176,
             218, 
             240, 
             260, 
