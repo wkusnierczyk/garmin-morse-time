@@ -47,6 +47,11 @@ class SwatchTimeView extends WatchUi.WatchFace {
         var viewMinutesTens = View.findDrawableById(DRAWABLE_MINUTES_TENS_ID) as WatchUi.Text;
         var viewMinutesOnes = View.findDrawableById(DRAWABLE_MINUTES_ONES_ID) as WatchUi.Text;
 
+        viewHourTens.setColor(Palette.HOUR_COLOR);
+        viewHourOnes.setColor(Palette.HOUR_COLOR);
+        viewMinutesTens.setColor(Palette.MINUTES_COLOR);
+        viewMinutesOnes.setColor(Palette.MINUTES_COLOR);
+
         viewHourTens.setText(morseHourDigits[0]);
         viewHourOnes.setText(morseHourDigits[1]);
         viewMinutesTens.setText(morseMinutesDigits[0]);
@@ -60,6 +65,7 @@ class SwatchTimeView extends WatchUi.WatchFace {
                 seconds.format("%02d")
             ]);
             var viewStandardTime = View.findDrawableById(DRAWABLE_STANDARD_TIME_ID) as WatchUi.Text;
+            viewStandardTime.setColor(Palette.STANDARD_TIME_COLOR);
             viewStandardTime.setText(standardTime);
         }        
 
