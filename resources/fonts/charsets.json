@@ -1,0 +1,10 @@
+[
+    {
+        "fontCharset": "•- ",
+        "fontId": "MorseTimeFont"
+    },
+    {
+        "fontCharset": "0123456789: ",
+        "fontId": "StandardTimeFont"
+    }
+]
