@@ -48,7 +48,7 @@ The Morse Time watch face supports the following features:
 |Screenshot|Description|
 |-|:-|
 |![Morse time](resources/graphics/morse.png)|**Morse time**<br /> The current time is displayed as Morse digits, in four rows: Two top rows in white font show the two hour digits (including zero, when hour < 10), the bottom two rows in ornge font show the minute digits.|
-|![Morse time](resources/graphics/morse-standard.png)| A setting in the Customize menu enables the user to toggle the standard time display on and off. The standard time is shown below the Morse time in smaller, dimmer font.|
+|![Morse time](resources/graphics/morse-standard.png)| **Standard time**<br />A setting in the Customize menu enables the user to toggle the standard time display on and off. The standard time is shown below the Morse time in smaller, dimmer font.|
 
 
 ## Fonts
