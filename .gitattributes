@@ -46,3 +46,4 @@ resources-semi-round-215x180/fonts/SyneMono-Regular-45.png filter=lfs diff=lfs m
 resources-rectangle-148x205/fonts/SyneMono-Regular-37.png filter=lfs diff=lfs merge=lfs -text
 resources-rectangle-320x360/fonts/Ubuntu-Regular-34.png filter=lfs diff=lfs merge=lfs -text
 resources-semi-octagon-176x176/fonts/Ubuntu-Regular-19.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/MorseTimeHero-small.png filter=lfs diff=lfs merge=lfs -text
