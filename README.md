@@ -49,10 +49,34 @@ The development process was as follows:
 
 The table below lists all font sizes provided for the supported screen resolutions.
 
-| Element       | Font             | 218 | 240 | 260 | 280 | 360 | 390 | 416 | 454 |
-| :------------ | :--------------- | --: | --: | --: | --: | --: | --: | --: | --: |
-| Morse time    | SyneMono regular |  54 |  60 |  65 |  70 |  90 |  98 | 104 | 114 |
-| Standard time | Ubuntu regular   |  23 |  26 |  28 |  30 |  39 |  42 |  45 |  49 |
+| Resolution |    Shape     |    Element    |       Font       | Size |
+| ---------: | :----------- | :------------ | :--------------- | ---: |
+|  148 x 205 | rectangle    | Morse time    | SyneMono regular |   37 |
+|  148 x 205 | rectangle    | Standard time | Ubuntu regular   |   16 |
+|  176 x 176 | semi-octagon | Morse time    | SyneMono regular |   44 |
+|  176 x 176 | semi-octagon | Standard time | Ubuntu regular   |   19 |
+|  215 x 180 | semi-round   | Morse time    | SyneMono regular |   45 |
+|  215 x 180 | semi-round   | Standard time | Ubuntu regular   |   19 |
+|  218 x 218 | round        | Morse time    | SyneMono regular |   54 |
+|  218 x 218 | round        | Standard time | Ubuntu regular   |   23 |
+|  240 x 240 | round        | Morse time    | SyneMono regular |   60 |
+|  240 x 240 | rectangle    | Morse time    | SyneMono regular |   60 |
+|  240 x 240 | round        | Standard time | Ubuntu regular   |   26 |
+|  240 x 240 | rectangle    | Standard time | Ubuntu regular   |   26 |
+|  260 x 260 | round        | Morse time    | SyneMono regular |   65 |
+|  260 x 260 | round        | Standard time | Ubuntu regular   |   28 |
+|  280 x 280 | round        | Morse time    | SyneMono regular |   70 |
+|  280 x 280 | round        | Standard time | Ubuntu regular   |   30 |
+|  320 x 360 | rectangle    | Morse time    | SyneMono regular |   80 |
+|  320 x 360 | rectangle    | Standard time | Ubuntu regular   |   34 |
+|  360 x 360 | round        | Morse time    | SyneMono regular |   90 |
+|  360 x 360 | round        | Standard time | Ubuntu regular   |   39 |
+|  390 x 390 | round        | Morse time    | SyneMono regular |   98 |
+|  390 x 390 | round        | Standard time | Ubuntu regular   |   42 |
+|  416 x 416 | round        | Morse time    | SyneMono regular |  104 |
+|  416 x 416 | round        | Standard time | Ubuntu regular   |   45 |
+|  454 x 454 | round        | Morse time    | SyneMono regular |  114 |
+|  454 x 454 | round        | Standard time | Ubuntu regular   |   49 |
 
 ## Build, test, deploy
 
